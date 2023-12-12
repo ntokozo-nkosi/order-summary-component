@@ -1,0 +1,31 @@
+.card-body {
+    padding: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-body .description {
+    color: hsl(223, 47%, 23%);
+    opacity: 70%;
+}
+
+.cancel {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    display: block;
+    font-weight: 700;
+    opacity: 60%;
+    font-size: 14px;
+}
+
+.cancel:hover {
+    opacity: 90%;
+}
+
+
+h1 {
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
